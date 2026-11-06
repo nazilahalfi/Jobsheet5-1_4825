@@ -1,4 +1,5 @@
-﻿Console.WriteLine("=== RINCIAN PENCETAKAN ===");
+﻿const int hargaAdministrasi = 2000;
+Console.WriteLine("=== RINCIAN PENCETAKAN ===");
 
 string nama = "andi";
 Console.WriteLine("Nama pelanggan: " + nama);
@@ -11,7 +12,6 @@ Console.WriteLine("Harga per halaman: " + hargaPerhalaman);
 int subtotal = hargaPerhalaman * jumlahhalamanyangdicetak;
 Console.WriteLine("subtotal:" + subtotal);
 
-int hargaadministrasi = 2000;
-Console.WriteLine("Harga administrasi: " + hargaadministrasi);
-int total = subtotal + hargaadministrasi;
+Console.WriteLine("Harga administrasi: " + hargaAdministrasi);
+int total = subtotal + hargaAdministrasi;
 Console.WriteLine("Total yang harus dibayar: " + total);
