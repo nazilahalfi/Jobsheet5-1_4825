@@ -1,10 +1,13 @@
 ﻿const int hargaAdministrasi = 2000;
+
 Console.WriteLine("=== RINCIAN PENCETAKAN ===");
 
-string nama = "andi";
+Console.WriteLine("Masukkan nama pelanggan:");
+string nama = Console.ReadLine();
 Console.WriteLine("Nama pelanggan: " + nama);
 
-int jumlahhalamanyangdicetak = 20;
+Console.WriteLine("Masukkan jumlah halaman yang di cetak:");
+int jumlahhalamanyangdicetak = int.Parse(Console.ReadLine());
 Console.WriteLine("Jumlah halaman yang di cetak: " + jumlahhalamanyangdicetak);
 
 int hargaPerhalaman = 500;
